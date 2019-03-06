@@ -2,6 +2,10 @@ import logging
 logger = logging.getLogger(__name__)
 logger.info("Loaded " + __name__)
 
+import json
 from {{ cookiecutter.repo_name.replace('-','_') }} import app
 
-app.run(host=app.config['HOST'], port=app.config['PORT'], threaded=app.config['THREADED'])
+@app.methods.add
+def test():
+    result = "test method"
+    return result

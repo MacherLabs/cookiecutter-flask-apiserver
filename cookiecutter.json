@@ -1,12 +1,12 @@
 {
-    "project_type": ["behaviour", "apiserver", "frontend", "helmchart", "ingress", "calculator", "other"],
+    "project_type": ["apiserver", "frontend", "helmchart", "ingress", "behaviour", "calculator", "other"],
     "project_name": "",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}-{{ cookiecutter.project_type.lower().replace(' ', '-').replace('_', '-') }}",
     "project_short_description": "{{ cookiecutter.repo_name.replace('-', ' ') }} for VedaLabs.",
     "version": "0.1.0",
 
     "framework": ["python-flask", "node.js", "other"],
-    "use_alipine_base": ["n", "y"],
+    "use_alipine_base": ["y","n"],
     "port": "8000",
     "host_name": "api.vedalabs.in",
     

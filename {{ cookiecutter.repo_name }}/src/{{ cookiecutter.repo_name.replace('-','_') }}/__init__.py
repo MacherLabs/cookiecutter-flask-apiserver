@@ -20,3 +20,4 @@ app.config['SWAGGER_HOST'] = app.config['HOST_NAME']
 from eazyserver.rpc.exceptions import *
 
 import core
+import rpc
