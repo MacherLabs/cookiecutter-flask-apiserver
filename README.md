@@ -1,7 +1,7 @@
 cookiecutter-vedalabs-flask-apiserver
 ========
 
-[![Build Status](https://drone.vedalabs.in/api/badges/macherlabs/cookiecutter-vedalabs-server-boilerplate/status.svg?branch=master)](https://drone.vedalabs.in/macherlabs/cookiecutter-vedalabs-server-boilerplate)
+[![Build Status](https://drone.vedalabs.in/api/badges/macherlabs/cookiecutter-vedalabs-flask-apiserver/status.svg?branch=master)](https://drone.vedalabs.in/macherlabs/cookiecutter-vedalabs-flask-apiserver)
 
 Boilerplate for creating CI/CD enabled Server applications for VedaLabs.
 
@@ -23,12 +23,12 @@ pip install cookiecutter
 
 Scaffold your project (from bitbucket):
 ```
-cookiecutter bb:macherlabs/cookiecutter-vedalabs-server-boilerplate
+cookiecutter gh:macherlabs/cookiecutter-vedalabs-flask-apiserver
 ```
 OR (from folder)
 ```
-git clone https://ashutoshdtu@bitbucket.org/macherlabs/cookiecutter-vedalabs-server-boilerplate.git
-cookiecutter cookiecutter-vedalabs-server-boilerplate
+git clone https://ashutoshdtu@bitbucket.org/macherlabs/cookiecutter-vedalabs-flask-apiserver.git
+cookiecutter cookiecutter-vedalabs-flask-apiserver
 ```
 
 
