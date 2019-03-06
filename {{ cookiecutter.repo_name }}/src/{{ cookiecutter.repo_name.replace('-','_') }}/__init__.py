@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 logger.info("Loaded " + __name__)
 
 from eazyserver import Eazy
-app = Eazy(__name__, settings=SETTINGS_FILE, configs=[DEFAULT_CONFIG_INI], env_prefix='APP')
+app = Eazy(__name__, settings=SETTINGS_FILE, configs=[DEFAULT_CONFIG_INI], env_prefix='APP_')
 app.config['SWAGGER_HOST'] = app.config['HOST_NAME']
 
 from eazyserver.rpc.exceptions import *
