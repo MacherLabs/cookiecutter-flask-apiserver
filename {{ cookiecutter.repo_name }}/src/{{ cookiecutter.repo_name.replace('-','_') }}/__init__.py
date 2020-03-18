@@ -21,3 +21,4 @@ from eazyserver.rpc.exceptions import *
 
 from . import core
 from . import rpc
+from . import controllers
